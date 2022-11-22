@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import {useRef} from "react"
+import SphereCustom from "../components/Sphere";
 import { Canvas, useFrame } from '@react-three/fiber'
 
 import styles from '../styles/Home.module.css'
@@ -25,7 +26,8 @@ export default function Home() {
         </Canvas>
         <h1>second</h1>
         <TwoSquares />
-        <h3>Third</h3>
+        <h1>Third</h1>
+        <SphereCustom />
     </div>
 
       )
