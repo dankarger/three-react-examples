@@ -6,6 +6,7 @@ import { Canvas, useFrame } from '@react-three/fiber'
 import styles from '../styles/Home.module.css'
 import MyRotatingBox from "../components/MyRotationBox";
 
+import TwoSquares from "../components/TwoSquares";
 
 export default function Home() {
   // const myMesh =  useRef()
@@ -22,13 +23,11 @@ export default function Home() {
             <ambientLight intensity={0.1} />
             <directionalLight />
         </Canvas>
+        <h1>second</h1>
+        <TwoSquares />
+        <h3>Third</h3>
     </div>
-         //
-         //
-         // <mesh  ref={myMesh} rotation = {[1,1,1]}>
-         //   <boxGeometry />
-         //   <meshBasicMaterial color="royalblue" />
-         // </mesh>
+
       )
 
 

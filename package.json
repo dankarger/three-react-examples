@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@react-three/fiber": "^8.9.1",
+    "@react-three/postprocessing": "^2.7.0",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.4",
     "next": "13.0.4",
